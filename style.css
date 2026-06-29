@@ -16,6 +16,18 @@
     --cor-borda: #D8D8D8;
 }
 
+/* Tema Escuro */
+
+body.dark {
+
+    --cor-fundo: #181818;
+    --cor-fundo-secundario: #242424;
+    --cor-texto: #F5F5F5;
+    --cor-destaque: #6D8FB3;
+    --cor-borda: #3A3A3A;
+
+}
+
 /* Configurações gerais */
 
 html {
@@ -249,7 +261,7 @@ nav a:hover {
 }
 
 .sobre-interesses li {
-    background-color: #FFFFFF;
+    background-color: var(--cor-fundo);
 
     padding: 14px 18px;
 
@@ -294,7 +306,7 @@ nav a:hover {
 .card {
     width: 300px;
 
-    background-color: #FFFFFF;
+    background-color: var(--cor-fundo);
 
     border: 1px solid var(--cor-borda);
 
